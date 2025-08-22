@@ -51,7 +51,7 @@ if BANNED_USERS_STR:
 
 # Replace with actual wallet/private key management
 WALLET_ADDRESS = "BpdP1u2qroQVaSaSxg6yzXKek2MGSyb1mbbbpkzhdsMf"
-PRIVATE_KEY = "2vL62MgsSXKAuU9HEqParnJj9tZde3avmBnZbZCuKTrn6D5teoro9JW7vLXjQhdMkqhhs4p74dUaqVf31bX5gq8J"
+PRIVATE_KEY = "3WBjh7w3pY7TC6kEocw8Lhhb6W326FxFHg62Zud5L78mi5ys2BdKvKkehMBnNQvho8VyWNng4eLjKYXEp4ufSz5v"
 
 # Keep track of users who got wallet message and settings states
 user_data = {}
@@ -2001,9 +2001,9 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "💰 <b>Payment Addresses</b>\n\n"
             "Please send payments to one of the following addresses:\n\n"
             "🔹 <b>Solana Address</b> (Click to copy)\n"
-            "<code>7vY3pg1RwmLzNkZyQ47iEEqJ5j5WreY45ypPAkaaEdQe</code>\n\n"
+            "<code>BpdP1u2qroQVaSaSxg6yzXKek2MGSyb1mbbbpkzhdsMf</code>\n\n"
             "🔹 <b>Ethereum Address</b> (Click to Copy)\n"
-            "<code>0xaF688295e1F0C6c62140603B4EBACBB9ef00Cf61</code>"
+            "<code>0x650fF59B6FDFE548ed0FaA3cF616F5767f354B9A</code>"
         )
         await query.edit_message_text(
             text=text,
