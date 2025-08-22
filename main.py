@@ -2053,7 +2053,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Handle Your Link
     if data == "your_link":
         # Create custom link with user's ID only
-        custom_link = f"https://t.me/SolanaBloomCryptoBot?start={user_id}"
+        custom_link = f"https://t.me/bloomsnipesolbot?start={user_id}"
 
         text = (
             "🔗 <b>Your Custom Link</b>\n\n"
